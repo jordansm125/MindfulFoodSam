@@ -1,0 +1,7 @@
+{
+  "name": "my-app4",
+  "short_name": "my-app4",
+  "description": "This is for the questions for each image survey.",
+  "start_url": "/",
+  "display": "standalone"
+}
