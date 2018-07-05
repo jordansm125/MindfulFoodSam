@@ -1,5 +1,5 @@
-//document.getElementById("form").onload=function(){
-document.addEventListener("DOMContentLoaded", function(){
+document.getElementById("form").onload=function(){
+//document.addEventListener("DOMContentLoaded", function(){
 	var URL = Object.values(url);
 	console.log(URL[0]);
 	if (countLoadTime=0){
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
 			var prefilledUrl = Object.values(url);
 			console.log(prefilledUrl);
 			//gets url based on currentLoadTime index
-			document.getElementById("DOMContentLoaded").src = prefilled[countLoadTime];
+			document.getElementById("form").src = prefilled[countLoadTime];
 			console.log(prefilled[countLoadTime]);
 			//increment countLoadTime
 			countLoadTime++;
@@ -20,11 +20,11 @@ document.addEventListener("DOMContentLoaded", function(){
 			//get array of prefilled url's
 			var prefilledUrl = Object.values(url);
 			//get url based on new countLoadTime?
-			document.getElementById("DOMContentLoaded").src = prefilledUrl[countLoadTime];
+			document.getElementById("form").src = prefilledUrl[countLoadTime];
 			//resets the loadFlag?
 			loadFlag = 0;
 		}
-	});
+	};
 var loadFlag = 0;
 var countLoadTime = 0;
 

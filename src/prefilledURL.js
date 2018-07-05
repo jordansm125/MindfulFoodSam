@@ -33,9 +33,8 @@ d3.csv("./images4.csv",function (data) {
 	//console.log(typeof url);
 	//console.log(Object.values(url));
 	console.log(Object.values(url));
-
-		
 });
+console.log(url);
 
 
 
